@@ -1,8 +1,11 @@
-# React + Vite
+# Project: Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Very simple Weather App created as part of 'The Odin Project'. 
 
-Currently, two official plugins are available:
+The app fetches weather data from an API and displays it. Any location's weather data can be searched. Only the present day's weather is displayed, no forecast.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For this project, I learnt about JSON, Asynchronous code, promises, async/await, fetch, and working with APIs.
+
+This is a desktop-only website.
+
+Link to website: https://weather-app-xi-liart-85.vercel.app/
