@@ -33,24 +33,24 @@ function App() {
   }, [location]);
 
   return (
-    <div>
-      <h1>Weather Data</h1>
+    <div className="minion">
       {weatherData &&
         <div>
           <form onSubmit={handleSearch}>
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Search location..."
         value={searchQuery}
         onChange={(e) => setSearchQuery(e.target.value)}
       />
-      <button type="submit">Search</button>
     </form>
+        <div className="bello">
           <h2>Location: {weatherData.location.name}, {weatherData.location.country}</h2>
           <h2>Temperature: {weatherData.current.temp_c}°C</h2>
           <h2>Humidity: {weatherData.current.humidity}%</h2>
           <h2>Feels Like: {weatherData.current.feelslike_c}°C</h2>
           <h2>Wind: {weatherData.current.wind_kph}Km/h, {weatherData.current.wind_dir}</h2>
+          </div>
         </div>
 }
     </div>
