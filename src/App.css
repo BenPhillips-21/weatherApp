@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-image: url('/home/ben/projects/js/TOP/weatherApp/bliss.jpg');
+  background-image: url('../bliss.jpg');
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center; 
